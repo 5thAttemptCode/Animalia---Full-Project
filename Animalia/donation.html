@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation</title>
+    <link rel="stylesheet" href="_donation-style.scss">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./Photos/icon.png">
+</head>
+<body>
+    <button class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </button>
+    <nav class="nav">
+        <div class="logo">
+            <a href="#home">Animalia</a>
+        </div>
+
+        <ul>
+            <a href="index.html#mission">The Mission</a>
+            <a href="donation.html">Donate</a>
+            <a href="index.html#about">About Us</a>
+            <a href="index.html#contact">Contact</a>
+        </ul>
+    </nav>
+
+    <section class="donation">
+        <div class="paypal-container">
+            <p>Every donation helps us to fight another day. 
+                The entire Animalia Family thanks you for your donation.
+            </p>
+            <input type="number" autocomplete="off" id="amount">
+            <div id="paypall"></div>
+        </div>
+    </section>
+
+    <script src="toggle-script.js"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=AVaEndSZM1EYDwCK1EtTZCIZAyg3isu3GwIbc26Mmd4A2ldlR-2TkLezoPdO8S72LMiWcKZMBMmtkO51"></script>
+    <script src="script.js"></script>
+</body>
+</html>
